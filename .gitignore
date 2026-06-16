@@ -1,40 +1,34 @@
-# Built artifacts and Gradle files
-.gradle/
+# Build artifacts
 build/
-/*/build/
-app/build/
+.gradle/
+*.apk
+*.jar
+*.dex
 
-# Local configuration files (contains local SDK paths, etc.)
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# Local configuration (not code)
 local.properties
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
 
-# Log files
-*.log
+# Gradle & build system
+.android/
+.kotlin/
+.gradle_cache/
 
-# Android Studio / IntelliJ IDEA files
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/caches
-.idea/shelf/
-.idea/navEditor.xml
-
-# Or ignore the entire .idea folder if not sharing IDE settings
-#.idea/
-
-# Keystores and sensitive credentials
-*.jks
-*.keystore
-*.properties
-!gradle.properties
-!local.properties.template
-
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
 
-# Kotlin / Java / JVM specific
-*.class
-.kotlin/
+# Logs & temp files
+*.log
+.kotlin/errors/

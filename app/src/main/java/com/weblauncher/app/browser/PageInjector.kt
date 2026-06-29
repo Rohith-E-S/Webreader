@@ -41,12 +41,8 @@ object PageInjector {
     private val AD_REMOVAL_CSS = """
         .ad, .ads, .ad-container, .ad-wrapper, .ad-banner, .ad-block, .ad-unit,
         .banner-ad, .banner_ad, .display-ad, .advert, .advertisement, .adsbygoogle,
-        .google-ad, #google_ads_div, [id*="ad_"], [class*="ad_"], [id*="ads-"],
-        [class*="ads-"], [id*="banner"], [class*="banner"],
-        .popup, .pop-up, .popup-overlay, .modal-overlay, .overlay,
-        [id*="popup"], [class*="popup"], [id*="modal"], [class*="modal"],
+        .google-ad, #google_ads_div,
         iframe[src*="ad"], iframe[src*="banner"],
-        div[style*="z-index: 9999"], div[style*="z-index:9999"],
         .push-notification-bar, .subscribe-widget {
             display: none !important;
             visibility: hidden !important;
